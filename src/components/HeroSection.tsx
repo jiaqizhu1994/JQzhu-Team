@@ -67,6 +67,9 @@ export function HeroSection() {
                 <img
                   src={profile.pi.avatar}
                   alt={`${profile.pi.name}头像`}
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
                   data-zoomable
                   className="size-32 rounded-[28px] border border-white/30 bg-white/10 object-cover p-2 shadow-xl"
                 />

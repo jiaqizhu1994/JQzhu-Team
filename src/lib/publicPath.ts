@@ -6,7 +6,12 @@ export function withPublicBasePath(value: string) {
     return `/api/media/${encodeURIComponent(value.slice("/uploads/".length))}`;
   }
 
-  if (!basePath || (!value.startsWith("/images/") && !value.startsWith("/uploads/"))) {
+  if (
+    !basePath ||
+    (!value.startsWith("/images/") &&
+      !value.startsWith("/uploads/") &&
+      !value.startsWith("/_optimized/"))
+  ) {
     return value;
   }
 

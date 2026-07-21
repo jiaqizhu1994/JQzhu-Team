@@ -22,6 +22,8 @@ export function ResponsiveImageGallery({
       <img
         src={visibleImages[0]}
         alt={alt}
+        loading="lazy"
+        decoding="async"
         data-zoomable
         data-zoom-images={JSON.stringify(visibleImages)}
         data-zoom-index={0}
@@ -40,6 +42,8 @@ export function ResponsiveImageGallery({
           <img
             src={image}
             alt={`${alt}，第 ${index + 1} 张`}
+            loading="lazy"
+            decoding="async"
             data-zoomable
             data-zoom-images={JSON.stringify(visibleImages)}
             data-zoom-index={index}

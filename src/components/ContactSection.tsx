@@ -41,6 +41,8 @@ function ContactMapCarousel({ images }: { images: string[] }) {
       <img
         src={visibleImages[activeImage]}
         alt={`校园或地图图片，第 ${activeImage + 1} 张`}
+        loading="lazy"
+        decoding="async"
         data-zoomable
         data-zoom-images={JSON.stringify(visibleImages)}
         data-zoom-index={activeImage}

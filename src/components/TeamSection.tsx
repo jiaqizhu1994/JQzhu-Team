@@ -25,6 +25,8 @@ function MemberCard({
       <img
         src={member.avatar}
         alt={`${member.name}头像`}
+        loading="lazy"
+        decoding="async"
         data-zoomable
         className={`rounded-[24px] border border-slate-100 bg-slate-50 object-cover p-2 ${
           large ? "size-36" : "size-24"

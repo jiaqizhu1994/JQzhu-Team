@@ -151,6 +151,8 @@ export function ActivityDetailClient({
                   <img
                     src={image}
                     alt={`${item.title}，第 ${index + 1} 张图片`}
+                    loading="lazy"
+                    decoding="async"
                     className="mx-auto h-auto max-h-[820px] w-full object-contain transition duration-300 group-hover:scale-[1.01]"
                   />
                 </button>

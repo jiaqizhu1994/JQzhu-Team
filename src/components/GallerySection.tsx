@@ -40,6 +40,8 @@ function ActivityImageCarousel({
       <img
         src={visibleImages[activeImage]}
         alt={`${title}，第 ${activeImage + 1} 张图片`}
+        loading="lazy"
+        decoding="async"
         data-zoomable
         data-zoom-images={JSON.stringify(visibleImages)}
         data-zoom-index={activeImage}

@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { NextRequest, NextResponse } from "next/server";
+import sharp from "sharp";
 import { adminUnauthorized, isAdminRequest } from "@/lib/adminAuth";
 
 export const runtime = "nodejs";
@@ -30,6 +31,18 @@ function safeFileName(name: string, type: string) {
     .slice(0, 60);
 
   return `${base || "image"}-${Date.now()}${imageExtensions[type]}`;
+}
+
+function optimizedFileName(name: string) {
+  const originalExt = path.extname(name).toLowerCase();
+  const base = path
+    .basename(name, originalExt)
+    .replace(/[^\w.-]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "")
+    .slice(0, 60);
+
+  return `${base || "image"}-${Date.now()}.webp`;
 }
 
 function hasValidImageSignature(type: string, bytes: Uint8Array) {
@@ -94,8 +107,33 @@ export async function POST(request: NextRequest) {
 
   await mkdir(uploadDir, { recursive: true });
 
-  const fileName = safeFileName(file.name, file.type);
-  await writeFile(path.join(uploadDir, fileName), Buffer.from(arrayBuffer));
+  const originalBuffer = Buffer.from(arrayBuffer);
+  let fileName: string;
+  let outputBuffer: Buffer;
 
-  return NextResponse.json({ path: `/uploads/${fileName}` });
+  if (file.type === "image/gif") {
+    fileName = safeFileName(file.name, file.type);
+    outputBuffer = originalBuffer;
+  } else {
+    fileName = optimizedFileName(file.name);
+    outputBuffer = await sharp(originalBuffer)
+      .rotate()
+      .resize({
+        width: 2200,
+        height: 2200,
+        fit: "inside",
+        withoutEnlargement: true,
+      })
+      .webp({ quality: 86, effort: 5, smartSubsample: true })
+      .toBuffer();
+  }
+
+  await writeFile(path.join(uploadDir, fileName), outputBuffer);
+
+  return NextResponse.json({
+    path: `/uploads/${fileName}`,
+    optimized: file.type !== "image/gif",
+    originalSize: file.size,
+    savedSize: outputBuffer.length,
+  });
 }

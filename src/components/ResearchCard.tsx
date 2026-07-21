@@ -27,6 +27,8 @@ function ResearchImageCarousel({ area }: { area: ResearchArea }) {
       <img
         src={images[activeImage]}
         alt={`${area.title}，第 ${activeImage + 1} 张图片`}
+        loading="lazy"
+        decoding="async"
         data-zoomable
         data-zoom-images={JSON.stringify(images)}
         data-zoom-index={activeImage}

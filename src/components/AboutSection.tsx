@@ -38,6 +38,8 @@ export function AboutSection() {
               <img
                 src={profile.pi.avatar}
                 alt={`${profile.pi.name}头像`}
+                loading="lazy"
+                decoding="async"
                 data-zoomable
                 className="mx-auto size-44 rounded-[30px] border border-white bg-white object-cover p-3 shadow-card"
               />

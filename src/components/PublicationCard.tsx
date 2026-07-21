@@ -84,6 +84,8 @@ function PublicationImageCarousel({ paper }: { paper: Publication }) {
       <img
         src={images[activeImage]}
         alt={`${paper.journal} graphical abstract，第 ${activeImage + 1} 张`}
+        loading="lazy"
+        decoding="async"
         data-zoomable
         data-zoom-images={JSON.stringify(images)}
         data-zoom-index={activeImage}

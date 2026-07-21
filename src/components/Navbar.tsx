@@ -121,6 +121,9 @@ export function Navbar() {
             <img
               src={profile.navLogo}
               alt={`${profile.navTitle} Logo`}
+              loading="eager"
+              decoding="async"
+              fetchPriority="high"
               className="size-11 rounded-2xl border border-white/20 bg-white object-cover shadow-lg shadow-slate-950/25"
             />
           ) : (
