@@ -7,6 +7,9 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const buildRoot = await mkdtemp(path.join(os.tmpdir(), "academic-pages-"));
 const outputRoot = path.join(root, "out");
+const repositoryName =
+  process.env.GITHUB_REPOSITORY?.split("/")[1] || "JQzhu-Team";
+const siteBaseUrl = `https://jiaqizhu1994.github.io/${repositoryName}/`;
 const excludedRoots = [
   ".git",
   ".next",
@@ -86,6 +89,34 @@ export default async function StaticDetailPage() {
   }
 }
 
+async function writeSeoFiles() {
+  const siteData = JSON.parse(
+    await readFile(path.join(root, "content", "site-data.json"), "utf8"),
+  );
+  const urls = [siteBaseUrl];
+
+  for (let index = 0; index < (siteData.news?.length ?? 0); index += 1) {
+    urls.push(`${siteBaseUrl}news/${index}/`);
+  }
+  for (let index = 0; index < (siteData.activities?.length ?? 0); index += 1) {
+    urls.push(`${siteBaseUrl}activities/${index}/`);
+  }
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map((url) => `  <url><loc>${url}</loc></url>`).join("\n")}
+</urlset>
+`;
+  const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${siteBaseUrl}sitemap.xml
+`;
+
+  await writeFile(path.join(outputRoot, "sitemap.xml"), sitemap, "utf8");
+  await writeFile(path.join(outputRoot, "robots.txt"), robots, "utf8");
+}
+
 function run(command, args, options = {}) {
   return new Promise((resolve, reject) => {
     const child = spawn(command, args, {
@@ -128,6 +159,7 @@ try {
   });
 
   await cp(path.join(buildRoot, "out"), outputRoot, { recursive: true });
+  await writeSeoFiles();
   await writeFile(path.join(outputRoot, ".nojekyll"), "", "utf8");
   console.log(`\nGitHub Pages static site generated at ${outputRoot}`);
 } finally {
