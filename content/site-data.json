@@ -1,0 +1,724 @@
+{
+  "sources": {
+    "ucasProfile": "https://people.ucas.ac.cn/~0071430",
+    "pdf": "戴宁工作室-朱家旗(1).pdf"
+  },
+  "nav": [
+    {
+      "label": "首页",
+      "href": "#home",
+      "id": "home"
+    },
+    {
+      "label": "个人简介",
+      "href": "#about",
+      "id": "about"
+    },
+    {
+      "label": "研究方向",
+      "href": "#research",
+      "id": "research"
+    },
+    {
+      "label": "论文成果",
+      "href": "#publications",
+      "id": "publications"
+    },
+    {
+      "label": "团队成员",
+      "href": "#team",
+      "id": "team"
+    },
+    {
+      "label": "新闻动态",
+      "href": "#news",
+      "id": "news"
+    },
+    {
+      "label": "加入我们",
+      "href": "#join",
+      "id": "join"
+    },
+    {
+      "label": "联系方式",
+      "href": "#contact",
+      "id": "contact"
+    }
+  ],
+  "sectionTitles": {
+    "about": "个人简介",
+    "research": "研究方向",
+    "news": "最新动态",
+    "publications": "代表论文",
+    "projects": "科研项目",
+    "team": "课题组成员",
+    "activities": "课题组文化建设",
+    "alumni": "毕业生去向",
+    "contact": "联系方式"
+  },
+  "sectionEyebrows": {
+    "about": "About Me",
+    "research": "Research Areas",
+    "news": "News",
+    "publications": "Featured Publications",
+    "projects": "Projects",
+    "team": "Team Members",
+    "activities": "Activities",
+    "alumni": "Graduate Students",
+    "contact": "Contact"
+  },
+  "sectionSubtitles": {
+    "about": "",
+    "research": "围绕红外半导体探测材料与器件、计算光谱学、光电传感芯片和人工智能，形成材料、器件、算法与应用相互支撑的研究布局。",
+    "news": "记录论文、项目、学生成长、学术会议与课题组建设的阶段性进展。",
+    "publications": "",
+    "projects": "以基础研究、平台建设和交叉合作为主线，支持红外光电材料与智能感知方向的连续探索。",
+    "team": "",
+    "activities": "",
+    "alumni": "",
+    "contact": "欢迎对新型动态视觉传感器、红外半导体探测材料与器件、计算光谱学、光电传感芯片和人工智能方向感兴趣的同学与合作者联系。"
+  },
+  "aboutContentTitles": {
+    "biographyEyebrow": "Biography",
+    "timelineEyebrow": "Career Path",
+    "timelineTitle": "教育经历 / 工作经历"
+  },
+  "teamGroupTitles": {
+    "principalInvestigator": "导师",
+    "postdoctoralResearchers": "导师团队",
+    "phdStudents": "现指导博士研究生",
+    "masterStudents": "现指导硕士研究生",
+    "undergraduateInterns": "本科实习生"
+  },
+  "profile": {
+    "groupAbbr": "JQZhu Team5555",
+    "navLogo": "/uploads/_20260720145842_43_83-1784530773399.png",
+    "navTitle": "JQZhu Team",
+    "navSubtitle": "",
+    "heroBadge": "Optoelectronic Detection & Intelligent Sensing",
+    "groupName": "JQZhu Team",
+    "englishName": "",
+    "tagline": "课题组长期聚焦于红外半导体器件设计与制备、新型光电传感芯片开发与人工智能交叉应用。",
+    "keywords": [
+      "AI for Photonic Information",
+      "Optoelectronic Sensing Chips",
+      "Infrared Photodetectors",
+      "Computational Spectroscopy"
+    ],
+    "pi": {
+      "name": "朱家旗",
+      "displayName": "朱家旗",
+      "title": "特聘副研究员 / 硕士生导师 / 浙大本博",
+      "titles": [
+        "特聘副研究员",
+        "硕士生导师",
+        "浙大本博"
+      ],
+      "school": "国科大杭州高等研究院",
+      "email": "jiaqizhu@ucas.ac.cn",
+      "office": "中国科学院大学杭州高等研究院",
+      "address": "浙江省杭州市西湖区象山支弄1号，邮政编码 310024",
+      "avatar": "/images/zhujiaqi-ucas.jpg",
+      "links": [
+        {
+          "label": "UCAS Homepage",
+          "href": "https://people.ucas.ac.cn/~0071430"
+        },
+        {
+          "label": "Email",
+          "href": "mailto:jiaqizhu@ucas.ac.cn"
+        }
+      ],
+      "researchTags": [
+        "新型动态视觉传感器",
+        "红外半导体探测材料与器件",
+        "计算光谱学"
+      ]
+    },
+    "aboutParagraphs": [
+      "朱家旗，国科大杭州高等研究院特聘副研究员，**杭州市领军人才**，硕士生导师。主要从事**智能光电传感芯片与应用**的研究工作。以第一或通讯作者身份发表20余篇SCI论文，期刊包括Adv. Funct. Mater. 、Adv. Sci.、Optica等国际知名学术期刊；申请/授权发明专利15余项；主持包括国家自然科学基金在内的国家及省部级科研项目9项。"
+    ]
+  },
+  "stats": [
+    {
+      "value": "20+",
+      "label": "Research Articles"
+    },
+    {
+      "value": "15+",
+      "label": "Patent Items"
+    },
+    {
+      "value": "12",
+      "label": "Guiding Students"
+    },
+    {
+      "value": "9",
+      "label": "Research Projects"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2023-07 - 至今",
+      "title": "国科大杭州高等研究院，助理研究员（特聘副研究员）",
+      "description": ""
+    },
+    {
+      "year": "2021-07 - 2023-07",
+      "title": "国科大杭州高等研究院，博士后",
+      "description": ""
+    },
+    {
+      "year": "2016-09 - 2021-06",
+      "title": "浙江大学，博士",
+      "description": ""
+    },
+    {
+      "year": "2012-09 - 2016-06",
+      "title": "浙江大学，本科",
+      "description": ""
+    }
+  ],
+  "researchAreas": [
+    {
+      "title": "动态视觉智能传感芯片",
+      "description": "面向高速运动探测与复杂动态场景感知，开展新型动态视觉智能传感芯片研究。通过融合事件驱动成像、超快光电响应与片上智能处理，实现对光强变化信息的低延迟、高时间分辨和低冗余获取，为高速目标识别、运动感知及智能视觉系统提供高性能芯片基础。",
+      "tags": [
+        "Dynamic Vision Sensor",
+        "Neuromorphic Vision",
+        "Intelligent Sensing Chip"
+      ],
+      "image": "/uploads/ChatGPT-Image-2026-7-20-18_27_29-1784543279947.png",
+      "images": [
+        "/uploads/ChatGPT-Image-2026-7-20-18_27_29-1784543279947.png"
+      ],
+      "href": "#contact",
+      "accent": "from-blue-50 via-cyan-50 to-white"
+    },
+    {
+      "title": "动态视觉智能感知算法",
+      "description": "面向动态视觉传感器产生的异步事件流数据，开展事件信息表征、时空特征提取与多模态视觉融合算法研究。通过结合深度学习、脉冲神经网络与事件帧协同处理，实现高速运动目标的精准识别、跟踪与场景理解，充分发挥动态视觉低延迟、高动态范围和高时间分辨率的优势。",
+      "tags": [
+        "Event-Based Vision",
+        "Spatiotemporal Learning",
+        "Multimodal Fusion"
+      ],
+      "image": "/uploads/ChatGPT-Image-2026-7-20-18_38_55-1784543961091.png",
+      "href": "#contact",
+      "accent": "from-blue-50 via-cyan-50 to-white",
+      "images": [
+        "/uploads/ChatGPT-Image-2026-7-20-18_38_55-1784543961091.png"
+      ]
+    },
+    {
+      "title": "新型光电传感材料生长",
+      "description": "面向高性能光电探测与智能传感器件需求，开展基于分子束外延技术的新型光电材料生长研究。依托超高真空生长与原位表征平台，实现薄膜厚度、组分、界面及缺陷的精确调控，构筑高质量半导体薄膜与异质结结构，为高灵敏、宽光谱和高速光电传感器件提供材料基础。",
+      "tags": [
+        "Molecular Beam Epitaxy",
+        "Optoelectronic Materials",
+        "Heterostructure Engineering"
+      ],
+      "image": "/uploads/ChatGPT-Image-2026-7-20-18_42_10-1784544164383.png",
+      "href": "#contact",
+      "accent": "from-sky-50 via-indigo-50 to-white",
+      "images": [
+        "/uploads/ChatGPT-Image-2026-7-20-18_42_10-1784544164383.png"
+      ]
+    },
+    {
+      "title": "片上集成光谱芯片",
+      "description": "面向便携式光谱检测与智能化物质识别需求，开展微型化片上集成光谱芯片研究。通过融合光子集成、微纳光学调控与智能光谱重构，实现光谱信息的高效分光、快速采集与精准解析，突破传统光谱仪体积大、结构复杂等限制，为环境监测、生物检测及智能感知提供小型化、高集成度的光谱解决方案。",
+      "tags": [
+        "Integrated Spectroscopy",
+        "Photonic Integration",
+        "Spectral Reconstruction"
+      ],
+      "image": "/uploads/ChatGPT-Image-2026-7-20-18_45_05-1784544321673.png",
+      "href": "#contact",
+      "accent": "from-emerald-50 via-cyan-50 to-white",
+      "images": [
+        "/uploads/ChatGPT-Image-2026-7-20-18_45_05-1784544321673.png"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-04-07",
+      "type": "Paper",
+      "pinned": false,
+      "title": "课题组24级硕士生赵玮丰文章发表",
+      "description": "热烈庆祝课题组24级硕士生赵玮丰同学工作被Nano Research接收",
+      "detail": "热烈庆祝课题组24级硕士生赵玮丰同学工作被Nano Research接收",
+      "images": []
+    },
+    {
+      "date": "2026-06-01",
+      "type": "Award",
+      "pinned": false,
+      "title": "课题组25级硕士林宗涛、方骋杰学生获得三好学生",
+      "description": "热烈庆祝课题组25级硕士生林宗涛、方骋杰获得国科大2025-2026学年三好学生",
+      "detail": "热烈庆祝课题组25级硕士生林宗涛、方骋杰获得国科大2025-2026学年三好学生",
+      "images": [
+        "/uploads/_20260720163223_51_83-1784536480629.jpg"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "type": "News",
+      "pinned": false,
+      "title": "欢迎26级硕士新生",
+      "description": "热烈欢迎26级硕士生盛士函、闫顺、沈涛进入课题组开展科研学习",
+      "detail": "热烈欢迎26级硕士生盛士函、闫顺、沈涛进入课题组开展科研学习",
+      "images": []
+    },
+    {
+      "date": "2026-06-30",
+      "type": "News",
+      "pinned": false,
+      "title": "课题组24级硕士生赵玮丰成功硕转博",
+      "description": "课题组24级硕士生赵玮丰成功硕转博，与Nathan老师联合培养",
+      "detail": "课题组24级硕士生赵玮丰成功硕转博，与Nathan老师联合培养",
+      "images": [
+        "/uploads/_20260717171620_43_80-1784536283492.jpg"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "type": "Conference",
+      "pinned": false,
+      "title": "课题组24级硕士生赵玮丰参加学术会议",
+      "description": "课题组24级硕士生赵玮丰参加第七届红外技术及其应用大会并做口头报告",
+      "detail": "课题组24级硕士生赵玮丰参加第七届红外技术及其应用大会并做口头报告",
+      "images": [
+        "/uploads/_2026-07-20_162725_101-1784536130631.jpg",
+        "/uploads/_2026-07-20_162731_781-1784536130547.jpg"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "journal": "Advanced Functional Materials",
+      "year": "2024",
+      "title": " Plasmonic Photovoltaic Effect of an Original 2D Electron Gas System and Application in Mid-Infrared Imaging",
+      "authors": "第 16 作者，**通讯作者**",
+      "highlight": "",
+      "image": "/uploads/adfm202404974-fig-0005-m-1784535549983.jpg",
+      "images": [
+        "/uploads/adfm202404974-fig-0005-m-1784535549983.jpg"
+      ],
+      "links": {
+        "doi": "https://doi.org/10.1002/adfm.202404974",
+        "pdf": "",
+        "bibtex": "#"
+      }
+    },
+    {
+      "journal": "Advanced Science",
+      "year": "2025",
+      "title": "Wide-/Narrow-Bandgap Heterojunction for High Performance Differential Photodetector with Tunable Response",
+      "authors": "第 10 作者，**通讯作者**",
+      "highlight": "",
+      "image": "/uploads/advs71094-fig-0001-m-1784535452940.jpg",
+      "images": [
+        "/uploads/advs71094-fig-0001-m-1784535452940.jpg"
+      ],
+      "links": {
+        "doi": "https://doi.org/10.1002/advs.202504872",
+        "pdf": "",
+        "bibtex": "#"
+      }
+    },
+    {
+      "journal": "Reserach",
+      "year": "2025",
+      "title": "High-Performance Room-Temperature Terahertz Photodetection Using 2-Dimensional Electron Gas Channel Transport",
+      "authors": "第 9 作者，**通讯作者**",
+      "highlight": "",
+      "image": "/uploads/research.0656.fig.004-1784535353329.jpg",
+      "images": [
+        "/uploads/research.0656.fig.004-1784535353329.jpg"
+      ],
+      "links": {
+        "doi": "https://doi.org/10.34133/research.0656",
+        "pdf": "",
+        "bibtex": "#"
+      }
+    },
+    {
+      "journal": "ACS Applied Materials & Interfaces",
+      "year": "2026",
+      "title": "Self-Powered Broadband Photodetection Driven by Asymmetric Surface Potential in Quasi-2D InAs Single Crystals",
+      "authors": "第 3 作者，**通讯作者**",
+      "highlight": "",
+      "image": "/uploads/images_large_am5c22486_0006-1784534499684.jpg",
+      "links": {
+        "doi": "https://pubs.acs.org/doi/10.1021/acsami.5c22486",
+        "pdf": "",
+        "bibtex": "https://people.ucas.ac.cn/~0071430"
+      },
+      "images": [
+        "/uploads/images_large_am5c22486_0006-1784534499684.jpg"
+      ]
+    },
+    {
+      "journal": "Nano Letter",
+      "year": "2025",
+      "title": "Colloidal InSb Quantum Dots Mid-Wave Infrared Photoconductive Detectors via One-Step Strong Acid Surface Treatment Strategy",
+      "authors": "第 14 作者，**通讯作者**",
+      "highlight": "",
+      "image": "/uploads/images_large_nl5c03048_0005-1784534644275.jpg",
+      "links": {
+        "doi": "https://doi.org/10.1021/acs.nanolett.5c03048",
+        "pdf": "",
+        "bibtex": "https://people.ucas.ac.cn/~0071430"
+      },
+      "images": [
+        "/uploads/images_large_nl5c03048_0005-1784534644275.jpg"
+      ]
+    },
+    {
+      "journal": "Advanced Science",
+      "year": "2024",
+      "title": "An ultrasensitive and broad-spectrum MoS2 photodetector with extrinsic response using surrounding homojunction",
+      "authors": "**第 1 作者**",
+      "highlight": "",
+      "image": "/uploads/advs9823-fig-0004-m-1784534858031.jpg",
+      "links": {
+        "doi": "https://doi.org/10.1002/advs.202408299",
+        "pdf": "",
+        "bibtex": "https://people.ucas.ac.cn/~0071430"
+      },
+      "images": [
+        "/uploads/advs9823-fig-0004-m-1784534858031.jpg"
+      ]
+    },
+    {
+      "journal": "Nano Research",
+      "year": "2026",
+      "title": "Threefold programmable encoding for optical encryption by ferroelectric-assisted modulation of excitonic states in WSe2",
+      "authors": "第 14 作者，**通讯作者**",
+      "highlight": "",
+      "image": "/uploads/8718-Abstract-1784535061891.jpg",
+      "images": [
+        "/uploads/8718-Abstract-1784535061891.jpg"
+      ],
+      "links": {
+        "doi": "https://doi.org/10.26599/NR.2026.94908718",
+        "pdf": "",
+        "bibtex": "#"
+      }
+    },
+    {
+      "journal": "Optics Letters",
+      "year": "2026",
+      "title": "Monolithic photon-trapping Si detector for high-efficiency ultra-broadband infrared detection",
+      "authors": "第 10 作者，**通讯作者**",
+      "highlight": "",
+      "image": "/uploads/OL-1784543469278.png",
+      "images": [
+        "/uploads/OL-1784543469278.png"
+      ],
+      "links": {
+        "doi": "https://doi.org/10.1364/OL.584026",
+        "pdf": "",
+        "bibtex": "#"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "基于光生电子浓度分布操控驱动的中波红外光谱芯片机理研究",
+      "type": "国家任务",
+      "period": "2026-01 - 2028-12",
+      "leader": "朱家旗",
+      "description": "围绕中波红外光谱芯片中的光生电子浓度分布操控与器件机理开展研究。",
+      "status": "Ongoing",
+      "tone": "blue"
+    },
+    {
+      "name": "基于界面二维电子气的高性能中波红外光谱芯片机理研究",
+      "type": "地方任务",
+      "period": "2026-01 - 2028-12",
+      "leader": "朱家旗",
+      "description": "研究界面二维电子气对中波红外光谱芯片性能提升的机理。",
+      "status": "Ongoing",
+      "tone": "cyan"
+    },
+    {
+      "name": "自供电高性能中红外光谱芯片的工作机理及应用研究",
+      "type": "地方任务",
+      "period": "2025-01 - 2026-12",
+      "leader": "朱家旗",
+      "description": "关注自供电中红外光谱芯片的物理机制、器件实现与应用场景。",
+      "status": "Ongoing",
+      "tone": "green"
+    },
+    {
+      "name": "晶圆级硅基量子点异质集成的红外光谱芯片关键技术研究",
+      "type": "地方任务",
+      "period": "2025-01 - 2027-12",
+      "leader": "朱家旗",
+      "description": "面向晶圆级硅基量子点异质集成，发展红外光谱芯片关键技术。",
+      "status": "Ongoing",
+      "tone": "slate"
+    },
+    {
+      "name": "高灵敏及响应动态可调的锗基阻挡杂质带探测器机理研究",
+      "type": "研究所自主部署",
+      "period": "2024-10 - 2027-10",
+      "leader": "朱家旗",
+      "description": "研究锗基阻挡杂质带探测器的高灵敏响应与动态可调机制。",
+      "status": "Ongoing",
+      "tone": "purple"
+    },
+    {
+      "name": "基于光学天线增强的 Ge 基阻挡杂质带低能红外光子探测器机理研究",
+      "type": "国家任务",
+      "period": "2022-01 - 2024-12",
+      "leader": "朱家旗",
+      "description": "探索光学天线增强策略在 Ge 基阻挡杂质带低能红外光子探测中的作用。",
+      "status": "Completed",
+      "tone": "amber"
+    }
+  ],
+  "members": {
+    "principalInvestigator": {
+      "name": "朱家旗",
+      "role": "",
+      "focus": "新型动态视觉传感器、红外半导体探测材料与器件、计算光谱学",
+      "email": "jiaqizhu@ucas.ac.cn",
+      "avatar": "/images/zhujiaqi-ucas.jpg"
+    },
+    "postdoctoralResearchers": [],
+    "phdStudents": [
+      {
+        "name": "赵玮丰",
+        "role": "080901物理电子学-与Nathan老师联合指导博士生",
+        "focus": "新型动态视觉传感器、量子点材料与器件",
+        "email": "zhaoweifeng24@mails.ucas.ac.cn",
+        "avatar": "/uploads/_20260714094913_8_99-1784530898085.png"
+      }
+    ],
+    "masterStudents": [
+      {
+        "name": "祝新凯",
+        "role": "085408光电信息工程",
+        "focus": "量子点器件设计与开发",
+        "email": "zhuxinkai24@mails.ucas.ac.cn",
+        "avatar": "/uploads/1-1784531411857.jpg"
+      },
+      {
+        "name": "王方恺",
+        "role": "085408光电信息工程",
+        "focus": "新型动态视觉传感器",
+        "email": "wangfangkai24@mails.ucas.ac.cn",
+        "avatar": "/uploads/_20260720150851_44_83-1784531480920.jpg"
+      },
+      {
+        "name": "钟家俊",
+        "role": "085601材料工程",
+        "focus": "新型动态视觉传感器",
+        "email": "zhongjiajun24@mails.ucas.ac.cn",
+        "avatar": "/uploads/zjj-1784531521822.png"
+      },
+      {
+        "name": "王维佳",
+        "role": "080901物理电子学",
+        "focus": "新型动态视觉传感器、相变材料与光谱",
+        "email": "wangweijia25@mails.ucas.ac.cn",
+        "avatar": "/images/member-avatar.svg"
+      },
+      {
+        "name": "杨天昊",
+        "role": "080901物理电子学",
+        "focus": "新型动态视觉传感器、MBE材料生长与器件开发",
+        "email": "yangtianhao25@mails.ucas.ac.cn",
+        "avatar": "/uploads/_20260720190211_82_487-1784595976651.jpg"
+      },
+      {
+        "name": "方骋杰",
+        "role": "085408光电信息工程",
+        "focus": "新型动态视觉传感器、MBE材料生长与器件开发",
+        "email": "fangchengjie25@mails.ucas.ac.cn",
+        "avatar": "/uploads/fcj-1784531717283.jpg"
+      },
+      {
+        "name": "易维江",
+        "role": "085408光电信息工程",
+        "focus": "新型动态视觉传感器",
+        "email": "yiweijiang25@mails.ucas.ac.cn",
+        "avatar": "/images/member-avatar.svg"
+      },
+      {
+        "name": "林宗涛",
+        "role": "085412人工智能",
+        "focus": "新型动态视觉传感器算法设计与优化",
+        "email": "linzongtao25@mails.ucas.ac.cn",
+        "avatar": "/uploads/lzt-1784531803358.png"
+      },
+      {
+        "name": "盛士函",
+        "role": "085408光电信息工程",
+        "focus": "新型动态视觉传感器",
+        "email": "shengshihan26@mails.ucas.ac.cn",
+        "avatar": "/uploads/shh-1784531935497.jpg"
+      },
+      {
+        "name": "闫顺",
+        "role": "085412人工智能",
+        "focus": "新型动态视觉传感器算法设计与优化",
+        "email": "yanshun26@mails.ucas.ac.cn",
+        "avatar": "/uploads/ys-1784531986912.jpg"
+      },
+      {
+        "name": "沈涛",
+        "role": "085412人工智能",
+        "focus": "新型动态视觉传感器算法设计与优化",
+        "email": "shentao26@mails.ucas.ac.cn",
+        "avatar": "/uploads/st-1784532867102.jpg"
+      }
+    ],
+    "undergraduateInterns": [
+      {
+        "name": "黄启瑞",
+        "role": "杭州电子科技大学26年暑期菁英班学生",
+        "focus": "",
+        "email": "",
+        "avatar": "/uploads/hqr-1784532117740.jpg"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "title": "教师节活动",
+      "date": "2025-09-10",
+      "type": "Activity",
+      "description": "教师节鲜花致谢戴老师和朱老师",
+      "detail": "教师节鲜花致谢戴老师和朱老师",
+      "image": "/uploads/_20260720185125_1319_14-1784544793968.jpg",
+      "images": [
+        "/uploads/_20260720185125_1319_14-1784544793968.jpg"
+      ]
+    },
+    {
+      "title": "第三届校园十佳歌手",
+      "date": "2026-01-08",
+      "type": "Activity",
+      "description": "课题组25级硕士生方骋杰荣获杭高院第三届校园十佳歌手亚军",
+      "detail": "活动详细内容",
+      "image": "/uploads/2-1784534329519.jpg",
+      "images": [
+        "/uploads/2-1784534329519.jpg",
+        "/uploads/image-1784534332580.jpg"
+      ]
+    },
+    {
+      "title": "观看世界杯",
+      "date": "2026-07-11",
+      "type": "Activity",
+      "description": "课题组组织热爱足球运动的学生一起观看2026美加墨世界杯比赛",
+      "detail": "课题组组织热爱足球运动的学生一起观看2026美加墨世界杯比赛",
+      "image": "/uploads/FIFA-1784534139954.jpg",
+      "images": [
+        "/uploads/FIFA-1784534139954.jpg"
+      ]
+    },
+    {
+      "title": "桌游活动",
+      "date": "2026-07-19",
+      "type": "Activity",
+      "description": "课题组内不定期组织学生进行桌游活动，旨在促进课题组内成员的相互了解并丰富课余活动",
+      "detail": "课题组内不定期组织学生进行桌游活动，旨在促进课题组内成员的相互了解并丰富课余活动",
+      "image": "/uploads/2026-7-19-1-1784544704602.jpg",
+      "images": [
+        "/uploads/2026-7-19-1-1784544704602.jpg",
+        "/uploads/_20260720102212_1297_14-1784544704605.jpg",
+        "/uploads/_20260720102215_1298_14-1784544704669.jpg",
+        "/uploads/_20260720102219_1299_14-1784544704697.jpg",
+        "/uploads/image-1784544704758.jpg"
+      ]
+    },
+    {
+      "title": "组内聚餐",
+      "date": "2026-07-10",
+      "type": "Activity",
+      "description": "庆祝24级硕士生赵玮丰成功硕转博",
+      "image": "/uploads/2026-7-10-1-1784515485603.jpg",
+      "images": [
+        "/uploads/2026-7-10-1-1784515485603.jpg"
+      ],
+      "detail": "庆祝24级硕士生赵玮丰成功硕转博"
+    },
+    {
+      "title": "第三届草坪音乐节",
+      "date": "2026-05-27",
+      "type": "Activity",
+      "description": "课题组25级硕士生方骋杰参加杭高院第三届草坪音乐节并演唱歌曲《屋顶》",
+      "image": "/uploads/2026-5-27-1-1784517892385.jpg",
+      "images": [
+        "/uploads/2026-5-27-1-1784517892385.jpg",
+        "/uploads/2026-5-27-2-1784517892391.jpg",
+        "/uploads/2026-5-27-3-1784517892400.jpg",
+        "/uploads/2026-5-27-4-1784517892406.jpg"
+      ],
+      "detail": "课题组25级硕士生方骋杰参加杭高院第三届草坪音乐节并演唱歌曲《屋顶》"
+    }
+  ],
+  "joinUs": {
+    "title": "Join Us / 招生信息",
+    "description": "团队招收电子科学与技术、电子信息学位类别，主要包括物理电子学学术型硕士、光电信息工程、人工智能专业型硕士。课题方向灵活，涵盖半导体材料生长、半导体芯片研制与开发、新型动态视觉传感器应用、深度学习等方向。",
+    "directions": [
+      "新型动态视觉传感器",
+      "红外半导体探测材料与器件",
+      "计算光谱学",
+      "光谱芯片",
+      "基于动态视觉传感器的算法研究"
+    ],
+    "requirements": [
+      "关注半导体材料、器件、光电芯片或人工智能交叉方向",
+      "愿意接受科研训练并面向实际民用市场需求开展研发",
+      "具体招生名额、要求和方向请以国科大系统及导师最新通知为准"
+    ],
+    "image": "",
+    "images": []
+  },
+  "alumni": [
+    {
+      "name": "洪毅",
+      "year": "2026",
+      "destination": "中芯国际（半导体龙头企业）",
+      "field": "TD-PIE"
+    }
+  ],
+  "contact": {
+    "email": "jiaqizhu@ucas.ac.cn",
+    "address": "浙江省杭州市西湖区象山支弄1号",
+    "office": "国科大杭州高等研究院3号楼4a423",
+    "school": "国科大杭州高等研究院物理与光电工程学院",
+    "googleScholar": "https://people.ucas.ac.cn/~0071430",
+    "orcid": "https://people.ucas.ac.cn/~jiaqizhu?language=en",
+    "homepage": "https://people.ucas.ac.cn/~0071430",
+    "groupHomepage": "https://people.ucas.ac.cn/~0071430",
+    "links": [
+      {
+        "label": "ORCID",
+        "href": "https://orcid.org/0000-0003-0256-6924"
+      },
+      {
+        "label": "个人主页",
+        "href": "https://people.ucas.ac.cn/~0071430"
+      }
+    ],
+    "qrcode": "",
+    "qrcodeTitle": "",
+    "qrcodeDescription": "",
+    "map": "/uploads/HIAS-1784533846036.jpg",
+    "mapImages": [
+      "/uploads/HIAS-1784533846036.jpg",
+      "/uploads/_20260720155056_389_6-1784536755166.jpg",
+      "/uploads/_20260720155105_390_6-1784536755324.png",
+      "/uploads/_20260720155121_391_6-1784536755166.jpg"
+    ]
+  },
+  "newsPageSize": 10
+}

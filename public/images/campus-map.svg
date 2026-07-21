@@ -1,0 +1,14 @@
+<svg width="900" height="680" viewBox="0 0 900 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="680" rx="42" fill="#F8FAFC"/>
+  <path d="M96 116C220 76 306 120 402 92C518 58 624 90 804 70V610C650 634 520 596 398 622C278 648 192 604 96 626V116Z" fill="#E0F2FE"/>
+  <path d="M104 474C236 426 310 508 432 456C548 406 616 444 798 396" stroke="#0B3D91" stroke-width="22" stroke-linecap="round" opacity=".25"/>
+  <path d="M142 210H350V342H142V210Z" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="4"/>
+  <path d="M520 150H720V284H520V150Z" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="4"/>
+  <path d="M430 404H676V548H430V404Z" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="4"/>
+  <path d="M246 342V462H454V404" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M620 284V392H552V404" stroke="#22C55E" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="552" cy="404" r="28" fill="#0B3D91"/>
+  <circle cx="552" cy="404" r="10" fill="#38BDF8"/>
+  <text x="172" y="286" fill="#0F172A" font-family="Arial, sans-serif" font-size="28" font-weight="700">Campus</text>
+  <text x="462" y="482" fill="#0B3D91" font-family="Arial, sans-serif" font-size="28" font-weight="700">AOMIS Lab</text>
+</svg>

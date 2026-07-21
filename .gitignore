@@ -1,0 +1,8 @@
+.next/
+out/
+.pages-build/
+node_modules/
+*.tsbuildinfo
+.env*.local
+content/admin-auth.json
+content/admin-password-reset.json
