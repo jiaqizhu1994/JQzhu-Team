@@ -7,6 +7,7 @@
     "dev:lan": "next dev --hostname 0.0.0.0",
     "build": "next build",
     "export:pages": "node scripts/build-github-pages.mjs",
+    "generate:qr": "node scripts/generate-site-qr.mjs",
     "publish:pages": "node scripts/publish-github-pages.mjs",
     "start": "next start",
     "start:lan": "next start --hostname 0.0.0.0",
@@ -23,10 +24,13 @@
   "devDependencies": {
     "@types/node": "^22.10.5",
     "@types/nodemailer": "^8.0.1",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.20",
+    "jsqr": "^1.4.0",
     "postcss": "^8.4.49",
+    "qrcode": "^1.5.4",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2"
   }
