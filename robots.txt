@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jiaqizhu1994.github.io/JQzhu-Team/sitemap.xml
